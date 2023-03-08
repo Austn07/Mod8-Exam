@@ -6,6 +6,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+  background-opacity: 0.5;
 }
 
 .container{
@@ -68,7 +69,6 @@ header a:hover{
 
 #showcase {
   min-height: 400px;
-  background:url('../img/headerbg.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   color: blue;
@@ -86,8 +86,8 @@ header a:hover{
 /* Newsletter */
 #newsletter{
   padding: 15px;
-  color: #ffffff;
-  background: blue;
+  color: yellow;
+  background: red;
 }
 
 #newsletter h1{
@@ -101,23 +101,23 @@ header a:hover{
 
 #newsletter input[type="email"]{
   padding: 4px;
-  height: 25px;
-  width: 250px;
+  height: 15px;
+  width: 1000px;
 }
 
 .button_1{
   height: 38px;
-  background: #cccccc;
-  border: 0;
+  background: yellow;
+  border: 7px solid gold;
   padding-left: 20px;
   padding-right: 20px;
-  color: #353637;
+  color: black;
 }
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #32a0c2;
+  color: yellow;
+  background-color: blue;
   text-align: center;
 }
 @media(max-width: 768px){
