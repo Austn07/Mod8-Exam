@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin:0;
-  background-color: #f4f4f4;
+  background-color: lightgray;
 }
 
 .container{
@@ -21,7 +21,8 @@ header{
   color: yellow;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #32a0c2 3px solid;
+  border-bottom: gold 7px solid;
+  font-size: 25px;
 }
 
 header a{
@@ -67,7 +68,7 @@ header a:hover{
   background:url('../img/headerbg.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
-  color: #ffffff;
+  color: blue;
 }
 
 #showcase h1{
@@ -83,7 +84,7 @@ header a:hover{
 #newsletter{
   padding: 15px;
   color: #ffffff;
-  background: #353637;
+  background: blue;
 }
 
 #newsletter h1{
