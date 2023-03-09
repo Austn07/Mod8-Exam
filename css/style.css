@@ -112,12 +112,16 @@ header a:hover{
   padding-right: 20px;
   color: black;
 }
+
 footer{
-  padding: 20px;
-  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   color: yellow;
   background-color: blue;
   text-align: center;
+  
 }
 @media(max-width: 768px){
   header #branding,
@@ -175,9 +179,10 @@ article#main-col{
 ul#services li{
   list-style: none;
   padding: 20px;
-  border: #cccccc solid 1px;
+  border: yellow solid 7px;
   margin-bottom: 5px;
-  background: #32a0c2;
+  background: blue;
+  color: yellow;
 }
 
 ul#services h3{
